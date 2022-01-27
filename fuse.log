@@ -1,0 +1,55 @@
+Running: D:\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Computer_and_logic/Bird_flying/sim_disp_isim_beh.exe -prj D:/Computer_and_logic/Bird_flying/sim_disp_beh.prj work.sim_disp work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/Mux4to1b4.vf" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/Mux4to1.vf" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/DisplaySync.vf" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/../MyClock/Shift_65b.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/../MyClock/pbdebounce.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/MyMC14495.vf" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/../MyClock/clkdiv.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/DispNum.vf" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/../MyClock/temp_MC14495.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/../MyClock/SEG_DRV.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/../MyClock/Load_gen.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/../MyClock/Invert.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/DipScore.v" into library work
+Analyzing Verilog file "D:/Computer_and_logic/Bird_flying/sim_disp.v" into library work
+Analyzing Verilog file "D:/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160520 KB
+Fuse CPU Usage: 436 ms
+Compiling module AND4
+Compiling module AND3
+Compiling module AND2
+Compiling module OR3
+Compiling module OR4
+Compiling module OR2
+Compiling module INV
+Compiling module MyMC14495
+Compiling module temp_MC14495
+Compiling module Invert
+Compiling module MyMC14495_MUSER_DispNum
+Compiling module Mux4to1b4_MUSER_DispNum
+Compiling module Mux4to1_MUSER_DispNum
+Compiling module D2_4E_HXILINX_DispNum
+Compiling module VCC
+Compiling module DisplaySync_MUSER_DispNum
+Compiling module clkdiv
+Compiling module DispNum
+Compiling module Shift_65b
+Compiling module SEG_DRV
+Compiling module pbdebounce
+Compiling module Load_gen
+Compiling module DipScore
+Compiling module sim_disp
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable D:/Computer_and_logic/Bird_flying/sim_disp_isim_beh.exe
+Fuse Memory Usage: 171720 KB
+Fuse CPU Usage: 749 ms

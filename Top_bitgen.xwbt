@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Computer_and_logic\Bird_flying\Top.ncd
+OUTFILE=D:\Computer_and_logic\Bird_flying\Top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1ffg676
+WORKINGDIR=D:\Computer_and_logic\Bird_flying
+LICENSE=WebPack
+USER_INFO=__0_0_0
